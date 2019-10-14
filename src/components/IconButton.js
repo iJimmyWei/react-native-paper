@@ -109,7 +109,7 @@ const IconButton = ({
       accessibilityTraits={disabled ? ['button', 'disabled'] : 'button'}
       accessibilityComponentType="button"
       accessibilityRole="button"
-      accessibilityStates={disabled ? ['disabled'] : undefined}
+      accessibilityStates={disabled ? ['disabled'] : []}
       disabled={disabled}
       hitSlop={
         TouchableRipple.supported

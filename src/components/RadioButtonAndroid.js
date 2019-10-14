@@ -135,7 +135,7 @@ class RadioButtonAndroid extends React.Component<Props, State> {
           checked ? 'radiobutton_checked' : 'radiobutton_unchecked'
         }
         accessibilityRole="button"
-        accessibilityStates={disabled ? ['disabled'] : undefined}
+        accessibilityStates={disabled ? ['disabled'] : []}
         accessibilityLiveRegion="polite"
         style={styles.container}
       >
